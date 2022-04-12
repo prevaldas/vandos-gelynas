@@ -1,0 +1,76 @@
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+  text-align: center;
+}
+header {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 5% 5% 10% 5%;
+  background-color: #FFBBCC;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+@media only screen and (max-width: 700px) {
+  header {
+    display: inline;
+  }
+}
+h1 {
+  color: #42C2FF;
+  font-size: 5rem;
+  margin: 30px auto 0;
+  font-family: 'Dancing Script', cursive;
+}
+h2 {
+  font-weight: bolder;
+  color: #FFE194;
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+}
+h3 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+}
+p {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  font-family: 'Playfair Display', serif;
+  color: #16697A;
+}
+.profile-img {
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  width: 70%;
+  border-radius: 100%;
+  margin: 5%;
+  padding: 3%;
+}
+main-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 5% 5% 5% 5%;
+  background-color: #D5DBB3;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+@media only screen and (max-width: 700px) {
+  main-container {
+    display: inline;
+  }
+}
+.apie {
+  margin: 10%;
+  font-size: 2.5rem;
+  font-family: 'Dancing Script', cursive;
+}
+.ziedai-img {
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  transition: transform .2s;
+  width: 60%;
+  border-radius: 100%;
+}
+.ziedai-img:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+}
