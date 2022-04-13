@@ -64,7 +64,7 @@ main-container {
 .ziedai-img {
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
   transition: transform .2s;
-  width: 60%;
+  width: 70%;
   border-radius: 100%;
 }
 .ziedai-img:hover {
